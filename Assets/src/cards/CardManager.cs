@@ -52,7 +52,7 @@ public class CardManager {
         deck = GameObject.Find(oppstring + "deck");
 
         //creates 30 cards and places them in the deck
-		for (int i = 0; i < 30; ++i) {
+		for (int i = 0; i < 10; ++i) {
 			Card newcard = createcard ((int)Random.Range (0, Main.textures.carddetails.Count));
 			deckcards.Add (newcard);
 			newcard.originposition = deck.transform.position;
