@@ -1,0 +1,6 @@
+<cards>
+<creaturecard id="0" texture="creatures/catunicorn" mana="20" health="10" damage="12" />
+<creaturecard id="1" texture="creatures/derpunicron" mana="10" health="5" damage="5" />
+<creaturecard id="2" texture="creatures/blueeyeswhitedragon" mana="40" health="25" damage="20" />
+<creaturecard id="3" texture="creatures/onetruegod" mana="60" health="40" damage="50" />
+</cards>
