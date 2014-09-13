@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{94D16762-989F-1D2E-07FA-A673CB8BE526}</ProjectGuid>
+	<ProjectGuid>{E1CB74B6-854E-7D7B-8BD4-4546897E190A}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -52,7 +52,7 @@
      <None Include="Assets\resources\carddetails.xml" />
      <None Include="Assets\PlayerIOClient.xml" />
  <Reference Include="PlayerIOClient">
- <HintPath>C:/Users/naros/Desktop/Spellfire-master/Assets/PlayerIOClient.dll</HintPath>
+ <HintPath>C:/Users/naros/Documents/GitHub/KingofKings/Assets/PlayerIOClient.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

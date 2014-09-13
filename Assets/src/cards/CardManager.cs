@@ -41,7 +41,7 @@ public class CardManager {
         collisionslots.Add(slot); slots.Add(null);
 
         //clone and create 5 slots based off a original slot
-		for (int n = 0; n < 5; ++n) {
+		for (int n = 0; n < 3; ++n) {
 			GameObject newslot = (GameObject)Object.Instantiate(slot);
 			newslot.name = oppstring + "slot" + (n + 2);
             newslot.transform.Translate(-150 * (n + 1), 0, 0);
